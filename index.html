@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F6F2EA">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>A Birthday Note for Vanshika</title>
+<meta name="description" content="A birthday page for Vanshika, filled with friendship, photos, and good memories.">
+<meta property="og:title" content="A Birthday Note for Vanshika">
+<meta property="og:description" content="A birthday page for Vanshika, filled with friendship, photos, and good memories.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://bdygift.com/og-image.png">
+<meta property="og:image:type" content="image/png">
+<link rel="canonical" href="https://bdygift.com/perfecto.html">
+<meta property="og:image:alt" content="A warm birthday greeting for Vanshika">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<main id="birthdayExperience">
+<div class="progress-dots" id="progressDots" aria-hidden="true"></div>
+<button class="back-btn hidden" id="backBtn" aria-label="Go back">←</button>
+
+<!-- SLIDE 1 -->
+<section class="slide active" id="slide-1" tabindex="-1" aria-hidden="false" aria-labelledby="typeTitle">
+  <div class="doodle" aria-hidden="true" style="top:14%;left:10%;">✨</div>
+  <div class="doodle" aria-hidden="true" style="top:20%;right:12%;">🌸</div>
+  <div class="doodle" aria-hidden="true" style="bottom:22%;left:16%;">⭐</div>
+  <div class="doodle" aria-hidden="true" style="bottom:18%;right:14%;">💫</div>
+  <div class="s1-stage" id="s1Stage">
+    <p class="slide-eyebrow s1-fade" id="s1Psst">psst...</p>
+    <h1 class="slide-title" id="typeTitle" tabindex="-1">I made something for you.</h1>
+    <p class="slide-sub s1-fade" id="s1Playful">Don't ask what it is yet. 🤭</p>
+    <button class="next-btn cta-glow s1-fade" id="openSlide1Btn" inert aria-hidden="true">Open it →</button>
+  </div>
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide" id="slide-2" inert aria-hidden="true" tabindex="-1" aria-labelledby="s2treeTitle">
+  <div class="stage-wrap">
+    <div class="stage" id="s2tree-stage">
+      <div class="scene" id="s2tree-scene">
+        <svg viewBox="0 0 700 440" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <g id="s2tree-treeGroup"></g>
+          <g id="s2tree-heartGroup"></g>
+        </svg>
+
+        <div class="greeting" id="s2tree-greeting">
+          <div class="greeting-clip">
+            <h1 class="greeting-text" id="s2treeTitle" tabindex="-1">Happy Birthday</h1>
+          </div>
+          <div class="greeting-name">Vanshika Singh</div>
+          <div class="greeting-rule"></div>
+        </div>
+
+        <div id="s2tree-sparkLayer"></div>
+        <div id="s2tree-miniHeartLayer"></div>
+      </div>
+      <button class="replay" id="s2tree-replayBtn" inert aria-hidden="true">Replay ↻</button>
+      <button class="s2tree-next" id="s2tree-nextBtn" data-next inert aria-hidden="true">Let's begin →</button>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide" id="slide-3" inert aria-hidden="true" tabindex="-1" aria-labelledby="s3Title">
+  <div class="s3-desk-vignette" aria-hidden="true"></div>
+
+  <span class="s3-sprig s3-sprig-tr" aria-hidden="true">🌸</span>
+  <span class="s3-sprig s3-sprig-br" aria-hidden="true">🌷</span>
+  <span class="s3-sprig s3-sprig-bl" aria-hidden="true">🌼</span>
+
+  <div class="s3-archive-tab" id="s3ArchiveTab">Friendship Notes</div>
+
+  <div class="s3-hangtag-wrap" id="s3Hangtag">
+    <div class="s3-hangtag-swing">
+      <div class="s3-hangtag-string"></div>
+      <div class="s3-hangtag" id="s3HangtagBtn" role="button" tabindex="0" aria-label="Flip the tag" inert aria-hidden="true">
+        <div class="s3-hangtag-inner">
+          <div class="s3-hangtag-face">
+            <p class="s3-hangtag-text">For a Good Friend</p>
+          </div>
+          <div class="s3-hangtag-face s3-hangtag-back">
+            <p class="s3-hangtag-text">...Yeah, I mean you. ♡</p>
+          </div>
+        </div>
+      </div>
+      <p class="s3-hangtag-hint">tap ↴</p>
+    </div>
+  </div>
+
+  <div class="s3-side-photos">
+    <div class="s3-side-polaroid s3-side-polaroid-a" id="s3SideA">
+      <div class="s3-photo-pin"></div>
+      <div class="s3-exhibit-tape" aria-hidden="true"></div>
+      <div class="s3-side-photo s3-side-photo-a"><img class="s3-exhibit-image" src="photos/exhibit-a.jpg" alt="Vanshika"></div>
+      <p class="s3-exhibit-caption">exhibit A</p>
+    </div>
+  </div>
+
+  <div class="s3-file" id="s3File">
+    <div class="s3-tape s3-tape-a"></div>
+    <div class="s3-paperclip" aria-hidden="true"></div>
+
+    <div class="s3-header-row">
+      <div class="s3-topsecret" id="s3TopSecret"><span><b>TOP SECRET</b>Don't tell anyone</span></div>
+      <div class="s3-title-block">
+        <h1 class="s3-title" id="s3Title">Vanshika</h1>
+      </div>
+      <div class="s3-confidential" id="s3Confidential">
+        <span class="s3-c-top">CONFIDENTIAL</span>
+        <span class="s3-c-bottom">Handle with care</span>
+      </div>
+    </div>
+
+    <p class="s3-subtitle" id="s3Subtitle">PERSONAL FILE &mdash; 01 &nbsp;♡</p>
+    <div class="s3-rule"></div>
+
+    <div class="s3-table" id="s3Table">
+      <div class="s3-row">
+        <span class="s3-rlabel">Status</span><span class="s3-rcolon">:</span>
+        <span class="s3-rvalue">brilliantly funny ♡</span>
+      </div>
+      <div class="s3-row">
+        <span class="s3-rlabel">Observation</span><span class="s3-rcolon">:</span>
+        <span class="s3-rvalue"><span class="s3-hl">Unusually hard to forget.</span></span>
+      </div>
+      <div class="s3-row">
+        <span class="s3-rlabel">Current status</span><span class="s3-rcolon">:</span>
+        <span class="s3-rvalue">Friendship status: confirmed 😊</span>
+        <span class="s3-rnote">officially a good friend.</span>
+      </div>
+      <div class="s3-row">
+        <span class="s3-rlabel">Warning</span><span class="s3-rcolon">:</span>
+        <span class="s3-rvalue s3-rwarn">Known to make people smile. 😊</span>
+      </div>
+    </div>
+
+    <div class="s3-footer-row">
+      <div class="s3-official-note" id="s3OfficialNote">
+        <span class="s3-official-label">Official note</span>
+        <span class="s3-official-text">Still getting to know you, and glad we met. ♡</span>
+      </div>
+      <div class="s3-fingerprint-card" id="s3FingerprintCard">
+        <svg class="s3-fingerprint-heart" viewBox="0 0 60 60">
+          <path d="M30,52 C30,52 8,36 8,20 C8,10 15,4 23,6 C27,7 29,10 30,14 C31,10 33,7 37,6 C45,4 52,10 52,20 C52,36 30,52 30,52 Z"/>
+        </svg>
+      </div>
+      <div class="s3-certified" id="s3Certified"><span><b>CERTIFIED</b>GOOD FRIEND ♡</span></div>
+    </div>
+
+    <p class="s3-cta-hint" id="s3CtaHint">Want to see the rest of the file?</p>
+    <button class="next-btn ghost s3-open-btn" id="s3OpenBtn" data-next inert aria-hidden="true">OPEN FILE →</button>
+  </div>
+
+  <div class="s3-outer-sticky" id="s3OuterSticky">You have no idea&hellip; ♡</div>
+</section>
+
+<!-- SLIDE 4 : CASE NOTES — 02 (evidence board) -->
+<section class="slide" id="slide-4" inert aria-hidden="true" tabindex="-1" aria-labelledby="s4Title">
+  <div class="s4-desk-vignette" aria-hidden="true"></div>
+
+  <span class="s4-sprig s4-sprig-tr" aria-hidden="true">🌸</span>
+  <span class="s4-sprig s4-sprig-bl" aria-hidden="true">🌿</span>
+
+  <div class="s4-board" id="s4Board">
+
+    <div class="s4-folder-tab" id="s4FolderTab">FILE CONTINUES&hellip;</div>
+    <div class="s4-confidential" id="s4Confidential"><span><b>CONFIDENTIAL</b>Handle with care</span></div>
+
+    <div class="s4-header" id="s4Header">
+      <h1 class="s4-title" id="s4Title" tabindex="-1">CASE NOTES <span class="s4-dash">&mdash;</span> <span class="s4-num">02</span></h1>
+      <p class="s4-subtitle">Observations collected over time. <span class="s4-heart">♡</span></p>
+    </div>
+
+    <!-- thread lines (drawn under the cards) -->
+    <svg class="s4-threads" id="s4Threads" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <path class="s4-thread" id="s4ThreadA" d="M22,34 L47,50" />
+      <path class="s4-thread" id="s4ThreadB" d="M78,32 L53,50" />
+      <path class="s4-thread" id="s4ThreadC" d="M50,58 L50,72" />
+    </svg>
+
+    <!-- central subject card -->
+    <div class="s4-subject" id="s4Subject">
+      <div class="s4-pin"></div>
+      <div class="s4-subject-photo">
+        <img src="photos/exhibit-a.jpg" alt="Vanshika" loading="lazy">
+      </div>
+      <p class="s4-subject-name">Vanshika</p>
+      <p class="s4-subject-label">a good friend</p>
+    </div>
+
+    <!-- evidence #01 : the eyes -->
+    <div class="s4-card s4-card-1" id="s4Card1" role="button" tabindex="0" aria-expanded="false" aria-label="Evidence 1: The Eyes. Show note." inert aria-hidden="true">
+      <div class="s4-tape"></div>
+      <span class="s4-tag">EVIDENCE #01</span>
+      <div class="s4-card-photo"><img src="photos/eyes.jpg" alt="Close-up of Vanshika's eyes" loading="lazy"></div>
+      <p class="s4-card-title">The Eyes</p>
+      <p class="s4-card-note">This photo always makes me smile. It feels so unmistakably you.</p>
+      <span class="s4-handwrite s4-hw-1">still investigating&hellip;</span>
+    </div>
+
+    <!-- evidence #02 : the personality -->
+    <div class="s4-card s4-card-2" id="s4Card2" role="button" tabindex="0" aria-expanded="false" aria-label="Evidence 2: The Personality. Show note." inert aria-hidden="true">
+      <div class="s4-pin s4-pin-small"></div>
+      <span class="s4-tag">EVIDENCE #02</span>
+      <p class="s4-card-title">The Personality</p>
+      <p class="s4-card-note">She somehow manages to be herself without even trying.</p>
+      <span class="s4-stamp s4-stamp-1">OBSERVED</span>
+      <span class="s4-handwrite s4-hw-2">highly suspicious 👀</span>
+    </div>
+
+    <!-- evidence #03 : the effect -->
+    <div class="s4-card s4-card-3" id="s4Card3" role="button" tabindex="0" aria-expanded="false" aria-label="Evidence 3: The Effect. Show note." inert aria-hidden="true">
+      <div class="s4-tape s4-tape-r"></div>
+      <span class="s4-tag">EVIDENCE #03</span>
+      <p class="s4-card-title">The Effect</p>
+      <p class="s4-card-note">Online games and good company make every day better.</p>
+      <span class="s4-handwrite s4-hw-3">not sure how this happened.</span>
+    </div>
+
+    <span class="s4-sticky" id="s4Sticky">Keep this memory safe. ♡</span>
+    <span class="s4-stamp s4-stamp-2" id="s4StampClassified">CLASSIFIED</span>
+
+    <p class="s4-more" id="s4More">More to uncover&hellip; ♡</p>
+    <button class="next-btn ghost s4-next-btn" id="s4Continue" data-next inert aria-hidden="true">NEXT EVIDENCE →</button>
+  </div>
+</section>
+
+<!-- SLIDE 5 -->
+<section class="slide" id="slide-5" inert aria-hidden="true" tabindex="-1" aria-labelledby="eaTitle">
+  <div class="ea-vignette" aria-hidden="true"></div>
+  <div class="ea-sprig ea-sprig-tl" aria-hidden="true">🌿</div>
+  <div class="ea-sprig ea-sprig-br" aria-hidden="true">🌸</div>
+  <div class="ea-head" id="eaHead">
+    <h1 class="ea-title" id="eaTitle" tabindex="-1">EVIDENCE <span class="ea-num">ARCHIVE — 03</span></h1>
+    <p class="ea-subtitle">"Some moments deserved to be kept."</p>
+  </div>
+  <div class="ea-board" id="eaBoard"></div>
+  <button class="ea-next" id="eaNext" data-next inert aria-hidden="true">Next Memory →</button>
+</section>
+
+<!-- SLIDE 6 : THE BESTIE SUPPORT DEPARTMENT (case file 04) -->
+<section class="slide" id="slide-6" inert aria-hidden="true" tabindex="-1" aria-labelledby="s6Title">
+  <div class="s6-desk-vignette" aria-hidden="true"></div>
+  <span class="s6-sprig s6-sprig-tl" aria-hidden="true">🌿</span>
+  <span class="s6-sprig s6-sprig-br" aria-hidden="true">🌸</span>
+
+  <div class="s6-board" id="s6Board">
+    <div class="s6-folder-tab" id="s6FolderTab">BESTIE FILE &mdash; 04</div>
+    <div class="s6-classified" id="s6Classified"><span><b>HIGHLY</b>CLASSIFIED</span></div>
+
+    <div class="s6-header" id="s6Header">
+      <h1 class="s6-title" id="s6Title" tabindex="-1">THE <span class="s6-hl">BESTIE SUPPORT</span> DEPARTMENT</h1>
+      <p class="s6-subtitle">(friendship support, always on call)</p>
+    </div>
+
+    <div class="s6-layout">
+      <!-- CASE SUMMARY -->
+      <div class="s6-summary" id="s6Summary">
+        <p class="s6-summary-title">Friendship Summary <span class="s6-heart">☆</span></p>
+        <div class="s6-srow"><span class="s6-slabel">Friend</span><span class="s6-sval">Vanshika ♡</span></div>
+        <div class="s6-srow"><span class="s6-slabel">Support buddy</span><span class="s6-sval">Armaan</span></div>
+        <div class="s6-srow"><span class="s6-slabel">Department</span><span class="s6-sval">Bestie Support 🌷</span></div>
+        <div class="s6-srow"><span class="s6-slabel">Mission</span><span class="s6-sval">Make days brighter</span></div>
+        <div class="s6-srow"><span class="s6-slabel">Service</span><span class="s6-sval">A friend who shows up 💛</span></div>
+        <div class="s6-status">Friendship status: <b>IN GOOD STANDING</b></div>
+        <span class="s6-stamp-round" id="s6TopSecretStamp">TOP<br>SECRET</span>
+      </div>
+
+      <!-- EVIDENCE GRID -->
+      <div class="s6-evidence-grid" id="s6EvidenceGrid">
+        <div class="s6-card" id="s6Card1">
+          <span class="s6-tag">EVIDENCE #01</span>
+          <p class="s6-card-title">Brightening Bad Days</p>
+          <p class="s6-card-line"><b>Frequency:</b> Always</p>
+          <p class="s6-card-line"><b>Severity:</b> Instant smiles</p>
+          <p class="s6-card-note">Friendship remedy: a laugh, a chat, and a little kindness.</p>
+          <span class="s6-verdict-line">RESULT: Bad days feel lighter.</span>
+        </div>
+
+        <div class="s6-card" id="s6Card2">
+          <span class="s6-tag">EVIDENCE #02</span>
+          <p class="s6-card-title">Friendship Status</p>
+          <p class="s6-card-big">BESTIE SUPPORT 🌷</p>
+          <p class="s6-card-note">Membership: open. Perks: good chats and plenty of laughs.</p>
+          <span class="s6-confirm-stamp">CONFIRMED ✓</span>
+        </div>
+
+        <div class="s6-card" id="s6Card3">
+          <span class="s6-tag">EVIDENCE #03</span>
+          <p class="s6-card-title">A Good Friend</p>
+          <p class="s6-card-note s6-victim">A friend who shows up 💛</p>
+          <p class="s6-card-line"><b>Current condition:</b></p>
+          <p class="s6-card-note">Highly contagious. Makes everyone smile.</p>
+        </div>
+
+        <div class="s6-card" id="s6Card4">
+          <span class="s6-tag">EVIDENCE #04</span>
+          <p class="s6-card-title">Friendship Habits</p>
+          <ul class="s6-checklist">
+            <li>Checking in on each other</li>
+            <li>Sending silly memes</li>
+            <li>Sharing little wins</li>
+            <li>Showing up when it matters</li>
+          </ul>
+          <span class="s6-confirm-stamp s6-confirm-alt">FRIEND DUTIES ✓</span>
+        </div>
+
+        <div class="s6-card" id="s6Card5">
+          <span class="s6-tag">EVIDENCE #05</span>
+          <p class="s6-card-title">A Note from Armaan</p>
+          <p class="s6-card-note s6-quote">&ldquo;Somehow, an ordinary day gets funnier with you around.&rdquo;</p>
+          <span class="s6-witness">Filed by the support department</span>
+        </div>
+
+        <div class="s6-card" id="s6Card6">
+          <span class="s6-tag">EVIDENCE #06</span>
+          <p class="s6-card-title">Friendship Perks</p>
+          <p class="s6-card-note">A steady supply of laughs, stories, and support.</p>
+          <span class="s6-confirm-stamp s6-confirm-danger">CLASSIFIED</span>
+        </div>
+      </div>
+
+      <!-- FINAL VERDICT -->
+      <div class="s6-verdict-panel" id="s6VerdictPanel">
+        <p class="s6-vp-title">Final Verdict</p>
+        <p class="s6-vp-stars">★★★★</p>
+        <p class="s6-guilty" id="s6Guilty">FRIENDS.</p>
+        <p class="s6-vp-charges-label">Friendship perks:</p>
+        <ul class="s6-vp-charges">
+          <li>Make days brighter</li>
+          <li>Elite meme delivery</li>
+          <li>Showing up, every time</li>
+        </ul>
+        <div class="s6-punchline" id="s6Punchline">
+          <p class="s6-question">Will the support team show up?</p>
+          <div class="s6-checking" id="s6Checking">
+            <span class="s6-checking-text">Checking&hellip;</span>
+            <div class="s6-bar"><div class="s6-bar-fill" id="s6BarFill"></div></div>
+          </div>
+          <p class="s6-answer" id="s6Answer">Always. That's the friend promise. 🌷</p>
+        </div>
+        <div class="s6-defense" id="s6Defense">
+          &ldquo;In my defence&hellip; I just want you to know you can count on me.&rdquo; 💛
+        </div>
+      </div>
+    </div>
+
+    <div class="s6-close-note" id="s6CloseNote">
+      <p>Okay okay&hellip; friendship check complete. 😂</p>
+      <p class="s6-close-sub">Back to the actual birthday thing.</p>
+    </div>
+    <button class="next-btn ghost s6-cta" id="s6Cta" data-next inert aria-hidden="true">BACK TO THE ACTUAL BIRTHDAY →</button>
+  </div>
+</section>
+
+<!-- SLIDE 7 : A LETTER FOR YOU -->
+<section class="slide" id="slide-7" inert aria-hidden="true" tabindex="-1" aria-labelledby="s7Title">
+  <h1 class="slide-eyebrow" id="s7Title" tabindex="-1">A letter for you</h1>
+
+  <div class="s7-envelope-wrap" id="s7EnvelopeWrap" role="button" tabindex="0" aria-label="Open the birthday letter" aria-expanded="false">
+    <div class="s7-letter-slip"></div>
+    <div class="s7-envelope-body"></div>
+    <div class="s7-envelope-flap"></div>
+    <div class="s7-wax-seal" aria-hidden="true">💌</div>
+  </div>
+  <p class="s7-hint" id="s7Hint">tap the envelope</p>
+  <div class="s7-envelope-actions" id="s7EnvelopeActions" inert aria-hidden="true">
+    <button class="next-btn" id="s7ReadBtn">Read my letter 💌</button>
+    <button class="next-btn ghost" id="s7ContinueBtn" data-next>Continue →</button>
+  </div>
+
+  <div class="s7-scene s7-paper-wrap" id="s7PaperWrap" inert aria-hidden="true">
+    <div class="s7-paper" id="s7Paper">
+      <div class="s7-tape" aria-hidden="true"></div>
+      <span class="s7-paperclip" aria-hidden="true">📎</span>
+      <span class="s7-sticker s7-s1" id="s7Sticker1" aria-hidden="true">🌷</span>
+      <span class="s7-sticker s7-s2" id="s7Sticker2" aria-hidden="true">💗</span>
+      <span class="s7-sticker s7-s3" id="s7Sticker3" aria-hidden="true">✨</span>
+      <span class="s7-sticker s7-s4" id="s7Sticker4" aria-hidden="true">🦋</span>
+      <span class="s7-sticker s7-s5" id="s7Sticker5" aria-hidden="true">⭐</span>
+      <span class="s7-sticker s7-s6" id="s7Sticker6" aria-hidden="true">🎀</span>
+      <span class="s7-sticker s7-s7" id="s7Sticker7" aria-hidden="true">💌</span>
+      <span class="s7-sticker s7-s8" id="s7Sticker8" aria-hidden="true">🌼</span>
+      <p class="s7-salutation" id="s7Salutation" tabindex="-1">Dear Vanshika,</p>
+      <div class="s7-body" id="s7Body"></div>
+      <p class="s7-signature" id="s7Signature"></p>
+      <div class="s7-back-footer" id="s7BackFooter" inert aria-hidden="true">
+        <button class="next-btn s7-back-btn" id="s7BackBtn">← Back to envelope</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 8 : THE THINGS I HOPE FOR YOU -->
+<section class="slide" id="slide-8" inert aria-hidden="true" tabindex="-1" aria-labelledby="s8Title">
+  <span class="s8-spark s8-spark1" aria-hidden="true">✨</span>
+  <span class="s8-spark s8-spark2" aria-hidden="true">🌷</span>
+  <span class="s8-spark s8-spark3" aria-hidden="true">🦋</span>
+  <span class="s8-spark s8-spark4" aria-hidden="true">💫</span>
+
+  <div class="s8-header" id="s8Header">
+    <h1 class="s8-title" id="s8Title" tabindex="-1">The Things I Hope For You</h1>
+    <p class="s8-subtitle">Not big things. Just the little ones that matter.</p>
+  </div>
+
+  <div class="s8-centerpiece" id="s8Centerpiece">
+    <div class="s8-centerpiece-icon" aria-hidden="true">💌</div>
+    <p>A little birthday wish.</p>
+  </div>
+
+  <div class="s8-notes" id="s8Notes">
+    <div class="s8-note"><div class="s8-note-tape"></div>I hope you always have a reason to smile.<span class="s8-note-deco" aria-hidden="true">🌼</span></div>
+    <div class="s8-note"><div class="s8-note-tape"></div>I hope you meet people who make you feel understood.<span class="s8-note-deco" aria-hidden="true">🦋</span></div>
+    <div class="s8-note"><div class="s8-note-tape"></div>I hope life gives you more moments you want to remember.<span class="s8-note-deco" aria-hidden="true">⭐</span></div>
+    <div class="s8-note"><div class="s8-note-tape"></div>I hope you feel comfortable being yourself around the people who care about you.<span class="s8-note-deco" aria-hidden="true">🌷</span></div>
+    <div class="s8-note"><div class="s8-note-tape"></div>I hope you keep finding little things that make ordinary days special.<span class="s8-note-deco" aria-hidden="true">💫</span></div>
+    <div class="s8-note"><div class="s8-note-tape"></div>And I hope you always know your friends appreciate having you around.<span class="s8-note-deco" aria-hidden="true">💗</span></div>
+  </div>
+
+  <div class="s8-ending" id="s8Ending">
+    <p class="s8-ending-line">You deserve all the good things coming your way.</p>
+    <p class="s8-ending-note">And yes, this one is officially not classified. 🤭</p>
+  </div>
+
+  <button class="next-btn ghost s8-cta" id="s8Cta" data-next inert aria-hidden="true">One last thing →</button>
+</section>
+
+<!-- OPTIONAL BIRTHDAY GAME -->
+<section class="slide bday-game-slide" id="slide-game" inert aria-hidden="true" tabindex="-1" aria-labelledby="birthdayGameTitle">
+  <div class="bday-game-shell">
+    <p class="bday-game-kicker">BONUS ROUND</p>
+    <h1 class="bday-game-title" id="birthdayGameTitle" tabindex="-1">The Birthday Escape Room</h1>
+    <p class="bday-game-intro-copy">Three little puzzles stand between you and the birthday message. Take a hint whenever you need one.</p>
+
+    <div class="bday-game-panel" id="birthdayGameIntro">
+      <p class="bday-game-intro-note">You have 90 seconds. The clock pauses if you leave this slide.</p>
+      <div class="bday-game-actions">
+        <button class="next-btn" id="birthdayGameStart">Start the game</button>
+        <button class="next-btn ghost" data-next>Skip to the birthday message</button>
+      </div>
+    </div>
+
+    <div class="bday-game-panel" id="birthdayGamePlay" hidden inert aria-hidden="true">
+      <div class="bday-game-hud">
+        <p class="bday-game-progress" id="birthdayGameProgress">Puzzle 1 of 3</p>
+        <p class="bday-game-timer" id="birthdayGameTimer" aria-label="Time remaining: 90 seconds">1:30</p>
+      </div>
+      <p class="bday-game-status" id="birthdayGameStatus" role="status" aria-live="polite">Find all four matching pairs.</p>
+
+      <section class="bday-game-puzzle" id="birthdayPuzzlePairs" aria-labelledby="birthdayPairsTitle" data-hint="Turn over two cards at a time. Find the cake, gift, candle, and balloon pairs.">
+        <h2 id="birthdayPairsTitle" tabindex="-1">Match the party pairs</h2>
+        <div class="bday-memory-grid" id="birthdayMemoryGrid">
+          <button class="bday-memory-card" type="button" data-name="Cake" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Gift" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Candle" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Balloon" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Cake" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Gift" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Candle" aria-label="Hidden party card">?</button>
+          <button class="bday-memory-card" type="button" data-name="Balloon" aria-label="Hidden party card">?</button>
+        </div>
+      </section>
+
+      <section class="bday-game-puzzle" id="birthdayPuzzleSequence" aria-labelledby="birthdaySequenceTitle" data-hint="The numbers go up by the same amount each time.">
+        <h2 id="birthdaySequenceTitle" tabindex="-1">Crack the candle code</h2>
+        <p class="bday-game-clue">The candles glow in this pattern: 3, 6, 9, … What comes next?</p>
+        <div class="bday-game-options" role="group" aria-label="Choose the next number">
+          <button class="bday-option" type="button" data-answer="10">10</button>
+          <button class="bday-option" type="button" data-answer="12">12</button>
+          <button class="bday-option" type="button" data-answer="15">15</button>
+        </div>
+      </section>
+
+      <section class="bday-game-puzzle" id="birthdayPuzzleRiddle" aria-labelledby="birthdayRiddleTitle" data-hint="It is wrapped in paper and often has a bow.">
+        <h2 id="birthdayRiddleTitle" tabindex="-1">Solve the final riddle</h2>
+        <p class="bday-game-clue">I arrive wrapped, often with a bow. You might shake me, but never peek. What am I?</p>
+        <div class="bday-game-options" role="group" aria-label="Choose the answer to the riddle">
+          <button class="bday-option" type="button" data-answer="Confetti">Confetti</button>
+          <button class="bday-option" type="button" data-answer="Gift">A gift</button>
+          <button class="bday-option" type="button" data-answer="Candle">A candle</button>
+        </div>
+      </section>
+
+      <p class="bday-game-hint" id="birthdayGameHint" aria-live="polite"></p>
+      <div class="bday-game-actions">
+        <button class="bday-game-small-button" id="birthdayGameHintButton" type="button">Give me a hint</button>
+        <button class="bday-game-small-button" id="birthdayGamePause" type="button" aria-pressed="false">Pause</button>
+        <button class="bday-game-small-button" type="button" data-next>Skip game</button>
+      </div>
+    </div>
+
+    <div class="bday-game-panel" id="birthdayGameWon" hidden inert aria-hidden="true">
+      <p class="bday-game-result-kicker">ROOM UNLOCKED</p>
+      <h2 tabindex="-1">You cracked it!</h2>
+      <p>The birthday message is all yours.</p>
+      <button class="next-btn" data-next>Open the birthday message</button>
+      <button class="bday-game-small-button" id="birthdayGameReplayWon" type="button">Play again</button>
+    </div>
+
+    <div class="bday-game-panel" id="birthdayGameOver" hidden inert aria-hidden="true">
+      <p class="bday-game-result-kicker">TIME'S UP</p>
+      <h2 tabindex="-1">The message can wait.</h2>
+      <p>Take a breath and give the puzzles another try.</p>
+      <div class="bday-game-actions">
+        <button class="next-btn" id="birthdayGameRetry" type="button">Try again</button>
+        <button class="next-btn ghost" data-next>Skip to the birthday message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 9 -->
+<section class="slide" id="slide-9" inert aria-hidden="true" tabindex="-1" aria-labelledby="s9Title"><h1 class="final-name" id="s9Title" tabindex="-1">Happy Birthday,<br>Ms. Vani 🤭</h1>
+  <p class="final-msg">I hope today makes you smile as much as you deserve.</p>
+  <p class="final-ps">P.S. You survived the entire website. 😂</p>
+  <nav class="legal-links" aria-label="Legal information"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</section>
+</main>
+
+<!-- Memory viewer -->
+<div class="viewer-overlay" id="viewerOverlay" role="dialog" aria-modal="true" aria-labelledby="viewerNum" aria-describedby="viewerCap" aria-hidden="true" inert tabindex="-1">
+  <div class="viewer-box">
+    <img id="viewerImg" src="" alt="">
+    <div class="viewer-num" id="viewerNum"></div>
+    <div class="viewer-cap" id="viewerCap"></div>
+    <button class="viewer-close" id="viewerClose">Close</button>
+  </div>
+</div>
+
+<button class="music-toggle is-muted" id="musicToggle" title="Play music" aria-label="Play music" aria-pressed="false"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"></path><path class="sound-wave" d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path class="sound-wave" d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg></button>
+<audio id="bgm" src="song.mp3" loop preload="none"></audio>
+
+<script src="script.js" defer></script>
+</body>
+</html>
